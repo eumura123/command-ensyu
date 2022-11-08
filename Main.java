@@ -10,5 +10,12 @@ public class Main {
 		double c = b / (a*a);
 		c = (Math.floor(c*100))/100;
 		System.out.println(c);
+		System.out.print("êgí∑:");
+		double a2 = sc.nextDouble()/100;
+		System.out.print("ëÃèd:");
+		double b2 = sc.nextDouble();
+		double c2 = b2 / (a2*a2);
+		c2 = (Math.floor(c2*100))/100;
+		System.out.println(c2);
 	}	
 }
